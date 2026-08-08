@@ -81,4 +81,5 @@ html {
 h1 {
     font-size: 6rem;
     color: var(--title-color);
+    font-weight: bold;
 }
