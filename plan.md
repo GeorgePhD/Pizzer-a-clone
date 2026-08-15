@@ -20,5 +20,12 @@ date : 12082026
 1. menu 2
 2. push to github when done
 
+date: 15082026
+1. menu 2 check
+2. JS para ingresar e introduce tu dirección
+3. push information
 
-
+date : 19082026
+1. add close button (X) to popup
+2. check 2 menus that are ready.
+3. push information
