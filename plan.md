@@ -25,7 +25,15 @@ date: 15082026
 2. JS para ingresar e introduce tu dirección
 3. push information
 
-date : 19082026
+date : 19082026 (undone, Maty was busy, content moved to next session)
+0. install opencode
 1. add close button (X) to popup
 2. check 2 menus that are ready.
 3. push information
+
+date : 21082026 (https://extract.pics/)
+0. install opencode (https://opencode.ai/docs/es)
+1. add close button (X) to popup
+2. check 2 menus that are ready.
+3. create slider
+4. push information
