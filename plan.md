@@ -41,3 +41,8 @@ date : 21082026 (https://extract.pics/)
 date : 26082026
 1. slider
 2. push information to github
+
+
+date: 10102026
+1. banner
+2. push information

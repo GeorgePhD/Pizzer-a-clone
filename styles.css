@@ -262,6 +262,7 @@ h1 {
 .slider_container {
     width: 100%;
     margin-top: 6rem;
+    margin-bottom: 6rem;
     overflow: hidden;
 }
 
@@ -280,3 +281,40 @@ h1 {
     width: 100%;
     transform: translate(-100);
 } */
+.banner_container {
+    background-color: var(--banner-color);
+    padding: 2rem;
+    display: flex;
+    border-radius: 1rem;
+    
+}
+
+.img_container {
+    flex-basis: 20%;
+}
+
+
+.banner_container_right {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_logo {
+    width: 8rem;
+}
+
+.banner_text {
+    font-size: 1.8rem;
+    color: var(--title-color);
+}
+
+.container_right_arrow {
+    width: 3rem;
+    color: var(--title-color);
+}
+
+.banner_link {
+    text-decoration: none;
+}
