@@ -14,3 +14,4 @@ git clone : git@github.com:GeorgePhD/Pizzer-a-clone.git
 2. create css variables and use them as one exmaple.
 3. link files.
 4. push files to repossotory.
+all done!
