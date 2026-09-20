@@ -351,8 +351,70 @@ h3 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: center;
     align-items: center;
+    margin-bottom: 5rem;
 }
 
 .gallery_img {
     width: 25rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.gallery_img_2 {
+    width: 25rem;
+    border-radius: .1rem;
+    margin: 1rem;
+}
+
+.btn_comenzar_pedido {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.plain_text {
+    font-size: var(--text-font-size);
+    color: var(--text-color);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--footer-bg-color);
+    margin-top: 3rem;
+}
+
+.footer h3 {
+    color: var(--title-color);
+}
+
+.footer_logo {
+    width: 17rem;
+    margin: 3rem auto;
+}
+
+.footer_text {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.footer_legal_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: var(--title-color);
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer_legal_info li {
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
 }
