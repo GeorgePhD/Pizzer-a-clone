@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Papa Jhons</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
     <header>
         <nav class="menu">
             <div class="menu-image--container">
@@ -15,27 +16,128 @@
             <div class="main-menu">
                 <ul class="main-menu--list">
                     <li class="list-item">
+                        <img class="icon pizza" src="./images/rebanada-de-pizza.png" alt="">
                         <a href="./index.html">MENÚ</a>
                     </li>
                     <li class="list-item">
+                        <img class="icon factura" src="./images/factura.png" alt="">
                         <a href="./pages/pedidos.html">PEDIDOS</a>
                     </li>
                     <li class="list-item">
+                        <img class="icon star" src="./images/favorito.png" alt="">
                         <a href="./pages/papapuntos.html">PAPA PUNTOS</a>
                     </li>
                     <li class="list-item">
+                        <img class="icon store" src="./images/store-front.png" alt="">
                         <a href="./pages/locales.html">LOCALES</a>
                     </li>
                     <li class="list-item">
-                        <a href="./pages/ingresar.html">INGRESAR</a>
+                        <img class="icon user" src="./images/user.png" alt="">
+                        <a id="login_btn" href="#">INGRESAR</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
-
-
+    <nav class="menu menu2">
+        <div class="secondary-menu">
+            <ul class="main-menu--list submenu">
+                <li class="list-item item-2 active">
+                    <!-- <img class="icon pizza" src="./images/rebanada-de-pizza.png" alt=""> -->
+                    <a href="./index.html">INICIO</a>
+                </li>
+                <li class="list-item item-2">
+                    <!-- <img class="icon factura" src="./images/factura.png" alt=""> -->
+                    <a href="./pages/promociones.html">PROMOCIONES</a>
+                </li>
+                <li class="list-item item-2">
+                    <!-- <img class="icon star" src="./images/favorito.png" alt=""> -->
+                    <a href="./pages/pizzas.html">PIZZAS</a>
+                </li>
+                <li class="list-item item-2">
+                    <!-- <img class="icon store" src="./images/store-front.png" alt=""> -->
+                    <a href="./pages/acompanamientos.html">ACOMPAÑAMIENTOS</a>
+                </li>
+                <li class="list-item item-2">
+                    <!-- <img class="icon user" src="./images/user.png" alt=""> -->
+                    <a href="./pages/bebidas.html">BEBIDAS</a>
+                </li>
+                <li class="list-item item-2">
+                    <!-- <img class="icon user" src="./images/user.png" alt=""> -->
+                    <a href="./pages/postres.html">POSTRES</a>
+                </li><li class="list-item item-2">
+                    <!-- <img class="icon user" src="./images/user.png" alt=""> -->
+                    <a href="./pages/extras.html">EXTRAS</a>
+                </li>
+            </ul>
+        </div>
+        <div class="address-box">
+            <div class="address-box-left">
+                <p class="left-title">Delivery:</p>
+                <p class="left-address">Introduce tu dirección</p>
+            </div>
+            <div class="address-box-right">
+                <div class="cart">
+                    <img class="icon cart-icon" src="./images/carrito-de-compras.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="popup_container_display_none">
+        <div class="popup_container">
+            <div class="popup">
+                <button class="close_popup_btn" id="popup_close_btn">
+                    <span>X</span>
+                </button>
+                <img class="popup_logo" src="/images/logo.jpeg" alt="">
+                <h2 class="popup_title"><strong>Compra, acumula puntos y disfruta de beneficios exclusivos!</strong></h2>
+                <p class="popup_text">Inicia sesión o regístrate de manera rápida usando tus redes sociales</p>
+                <button class="btn facebook_btn">CONTINUAR CON FACEBOOK</button>
+                <button class="btn google_btn">CONTINUAR CON GOOGLE</button>
+                <p class="popup_text">También puedes usar tu email</p>
+                <button class="btn email_btn">CONTINUAR CON EMAIL</button>
+                <li>
+                    <a href="#">Continuar como invitado</a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="slider_container">
+        <div class="slider">
+            <img id="slider_img_1" src="./images/banner_desktop_39_1785786323_extra_large.webp." alt="">
+            <img id="slider_img_2" src="./images/banner_desktop_40_1785962714_extra_large.webp." alt="">
+            <img id="slider_img_3" src="./images/banner_desktop_44_1786379586_extra_large.webp." alt="">
+            <img id="slider_img_4" src="./images/falabella_desktop_1230x512_1_1767728468_extra_large.webp." alt="">
+            <img id="slider_img_5" src="./images/www.papajohns.cl_262ef95c-6f34-4f99-8902-38c87a83fab3.zip" alt="">
+        </div>
+    </div>
+    <a href="./pages/papapuntos.html" class="banner_link">
+        <div class="banner_container">
+        <div class="img_container">
+            <img class="banner_logo" src="./images/papapuntos.svg" alt="logo papapuntos">
+        </div>
+        <div class="banner_container_right">
+            <p class="banner_text">Canjea tus puntos por pizzas y productos con Papa Puntos</p>
+            <p><strong class="banner_text">Ver Papa Puntos</strong></p>
+            <img class="container_right_arrow" src="./images/arrow.svg" alt="">
+        </div>
+    </div>
+    </a>
+    <h3>PIZZERÍA PAPA JOHNS CHILE</h3>
+    <div class="promos_destacadas_container">
+        <h2 class="promos_destacadas_title">PROMOS DESTACADAS</h2>
+        <div class="promos_destacadas_ver_todas">
+            <span>left arrow</span>
+            <span>right arrow</span>
+            <p class="promos_destacadas_text">Ver Todas</p>
+        </div>
+    </div>
+    <div class="gallery_1_container">
+        <img class="gallery_img" src="./images/banner_desktop_39_1785786323_extra_large.webp." alt="">
+        <img class="gallery_img" src="./images/banner_desktop_39_1785786323_extra_large.webp." alt="">
+        <img class="gallery_img" src="./images/banner_desktop_39_1785786323_extra_large.webp." alt="">
+    </div>
+    
 
     
 
