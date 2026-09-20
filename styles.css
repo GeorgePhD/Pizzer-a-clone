@@ -318,3 +318,41 @@ h1 {
 .banner_link {
     text-decoration: none;
 }
+
+.promos_destacadas_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.promos_destacadas_ver_todas {
+    display: flex;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+}
+
+.promos_destacadas_title {
+    font-weight: bolder;
+    font-size: var(--subtile-font-size);
+}
+
+.promos_destacadas_text {
+    font-size: var(--text-font-size);
+    color: var(--title-color);
+    margin: 0 1rem;
+}
+
+.gallery_1_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery_img {
+    width: 25rem;
+}
